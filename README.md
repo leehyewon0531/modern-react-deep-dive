@@ -46,3 +46,8 @@ DEVOCEAN YOUNG 3기 모던 리액트 Deep Dive 도서 스터디입니다!
 <br />
 
 ## 👤 스터디원
+
+## Team
+|<img src="https://avatars.githubusercontent.com/u/50867167?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/50830078?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/87323603?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|
+|박병영<br/>[@beongyoung](https://github.com/beongyoung)|이혜원<br/>[@leehyewon0531](https://github.com/leehyewon0531)|김유신<br/>[@yusiny](https://github.com/yusiny)|
