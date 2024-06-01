@@ -14,13 +14,13 @@ DEVOCEAN YOUNG 3기 모던 리액트 Deep Dive 도서 스터디입니다!
 ## 📌 주차별 학습 로드맵
 | 주차  | 진행 | 날짜       | 챕터               |
 |-------|------|------------|--------------------|
-| 1주차 |      | 2024-06-29 | Chapter 1, 2       |
-| 2주차 |      | 2024-07-13 | Chapter 3, 4       |
-| 3주차 |      | 2024-07-27 | Chapter 5, 6       |
-| 4주차 |      | 2024-08-10 | Chapter 7, 8       |
-| 5주차 |      | 2024-08-24 | Chapter 9, 10      |
-| 6주차 |      | 2024-09-07 | Chapter 11, 12     |
-| 7주차 |      | 2024-09-21 | Chapter 13, 14, 15 |
+| 1주차 |      | 2024-06-30 | Chapter 1, 2       |
+| 2주차 |      | 2024-07-14 | Chapter 3, 4       |
+| 3주차 |      | 2024-07-28 | Chapter 5, 6       |
+| 4주차 |      | 2024-08-11 | Chapter 7, 8       |
+| 5주차 |      | 2024-08-25 | Chapter 9, 10      |
+| 6주차 |      | 2024-09-08 | Chapter 11, 12     |
+| 7주차 |      | 2024-09-22 | Chapter 13, 14, 15 |
 
 <br />
 
@@ -47,6 +47,6 @@ DEVOCEAN YOUNG 3기 모던 리액트 Deep Dive 도서 스터디입니다!
 
 ## 👤 스터디원
 
-|<img src="https://avatars.githubusercontent.com/u/50867167?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/50830078?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/87323603?v=4" width="150" height="150"/>|
-|:-:|:-:|:-:|
-|박병영<br/>[@beongyoung](https://github.com/beongyoung)|이혜원<br/>[@leehyewon0531](https://github.com/leehyewon0531)|김유신<br/>[@yusiny](https://github.com/yusiny)|
+|<img src="https://avatars.githubusercontent.com/u/66587876?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/50867167?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/50830078?v=4" width="150" height="150"/>|<img src="https://avatars.githubusercontent.com/u/87323603?v=4" width="150" height="150"/>|
+|:-:|:-:|:-:|:-:|
+|Sung Chul Park<br/>[@manu1307](https://github.com/manu1307)|박병영<br/>[@beongyoung](https://github.com/beongyoung)|Hyewon Lee<br/>[@leehyewon0531](https://github.com/leehyewon0531)|Yooshin Kim<br/>[@yusiny](https://github.com/yusiny)|
