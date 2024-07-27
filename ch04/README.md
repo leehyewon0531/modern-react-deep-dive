@@ -60,7 +60,7 @@
 > **SSR이 만능은 아니다**
 
 -   오히려 관리 포인트가 서버, 클라이언트 두 개로 늘어나는 역효과
--   웹페이지에서 사용자게에 제공하고 싶은 내용이 무엇인지, 어떤 우선순위에 따라 페이지의 내용을 보여줄지를 잘 설계하는 것이 중요
+-   웹페이지에서 사용자에게 제공하고 싶은 내용이 무엇인지, 어떤 우선순위에 따라 페이지의 내용을 보여줄지를 잘 설계하는 것이 중요
 
 > **SPA vs. SSR**
 
@@ -242,8 +242,31 @@ export default function handler(req: NextApiReqeust, res: NextApiResponse) {
 
     ```
 
-(최근에는 그냥 디폴트로 서버 사이드로 굴러감)
-<br/>
+> But, Next.js 13부터 등장한 `App Router`에서는 개선된 Next.js용 fetch Web API를 사용할 수 있다!
+> - 중복 요청 제거, 데이터 캐시, 유효성 검증 등의 기능 제공
+> - SSG, SSR, ISR의 모든 이점을 하나의 API로 제공 가능
+> - 단, Next.js에서 기본 제공되는 fetch API를 사용해야 하며, 그 외의 서드파티 api 라이브러리 사용시 캐싱을 따로 해야함
+``` javascript
+    async function getData() {
+      const res = await fetch('https://api.example.com/...');
+      // The return value is *not* serialized
+      // You can return Date, Map, Set, etc.
+      return res.json();
+    }
+     
+    // This is an async Server Component
+    export default async function Page() {
+      const data = await getData();
+     
+      return <main>{/* ... */}</main>;
+    }
+```
+[링크]
+- Page Router https://nextjs.org/docs/pages/building-your-application/data-fetching/get-server-side-props
+- App Router https://nextjs.org/docs/app/building-your-application/data-fetching
+- Page router vs App router https://www.jadru.com/diffrent-approuter-and-pagerouter
+
+<br/><br/>
 
 ### 스타일
 
