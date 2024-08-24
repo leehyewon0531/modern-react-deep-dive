@@ -74,13 +74,13 @@
 
 - `eslint-config`은 이러한 플러그인들을 묶어서 한 세트로 제공하는 패키지
     
-  -  eslint-config-airbnb
+  -  [eslint-config-airbnb](https://github.com/airbnb/javascript/tree/master/packages/eslint-config-airbnb)
      -  가장 유명한 eslint-config, 압도적인 다운로드 수
-  - @titicaca/triple-config-kit
+  - [@titicaca/triple-config-kit](https://github.com/titicacadev/triple-config-kit)
     - 한국 커뮤니티에서 운영되는 config 중 가장 유지보수가 활발, 트리플에서 개발하고 있음
     - 대부분의 config는 airbnb 기반인데, 이건 airbnb 기반이 아님에도 사용하는 데 지장이 없음
     - Prettier와 Stylelint도 별도로 제공
-  - eslint-config-next
+  - [eslint-config-next](https://nextjs.org/docs/app/building-your-application/configuring/eslint)
     -   Next.js 11버전부터 제공
     -   단순히 자바스크립트 코드를 정적분석 할 뿐만 아니라
     -   JSX 구문, HTML 코드까지 분석 ⇒ 웹 서비스의 성능 향상에 도움이 됨
